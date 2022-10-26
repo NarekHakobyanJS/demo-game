@@ -1,0 +1,27 @@
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: sticky;
+    top : 0;
+    z-index: 9999;
+    background: black;
+}
+
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-store-title{
+    color : white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-cart{
+    justify-content: flex-end;
+}

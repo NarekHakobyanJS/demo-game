@@ -1,0 +1,23 @@
+.cat-menu{
+    position: absolute;
+    top : 30px;
+    left: -30px;
+    background: black;
+    width: 400px;
+    padding: 10px 20px;
+    z-index: 22222222;
+    border-radius: 15px;
+
+
+}
+
+.cart-menu-arr{
+    margin-top: 20px;
+    padding: 20px 0;
+
+}
+
+.cart-menu-totalPrice{
+    display: flex;
+    justify-content: space-between;
+}
